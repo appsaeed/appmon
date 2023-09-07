@@ -1,11 +1,11 @@
 {
     "name": "appmon",
-    "version": "1.0.18",
+    "version": "1.0.1",
     "description": "Javascript utilities functions and methods for browser and nodejs to 10x faster developer experience",
     "main": "./index.js",
     "types": "./index.d.ts",
     "scripts": {
-        "build": "tsc &&  publish  --access public"
+        "build": "tsc"
     },
     "repository": {
         "type": "git",

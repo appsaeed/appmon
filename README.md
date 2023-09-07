@@ -26,7 +26,7 @@ npm i appmon
 -   [load](#load) load utilites functions such as image,url , document
 -   [storage](#storage) browser local storage or session management
 -   [str](#str) string utilies capitalize and firrsuppercase letters
--   [types](#types) we also have typescript support for types safety
+-   [types](#types) some pre-build typescript type support for types safety
 -   [url](#url) manage url to string and string to url is very convenient
 -   [validation](#validation) validate client side email, number ete.
 -   [author](#author) project author details and github page
@@ -322,11 +322,9 @@ isPhoneNumber("abc10832749"); // false
 isPhoneNumber("10986499204"); // true
 ```
 
-## Typescript
+## types
 
-## types (pre-defined types for typescript)
-
-RangeOf(strint number and end numbe)
+RangeOf(strint number and end numbe);
 
 ```ts
 import { FileExtensions, FileOpenInfo } from "appmon/types/files";
