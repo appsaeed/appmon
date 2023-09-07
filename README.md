@@ -350,11 +350,16 @@ setThemeStore(theme);
 
 **Saeed**
 
--   [github/appsaeed](https://github.com/appsaeed)
+-   [website](https://appsaeed.github.io)
+-   [whatsapp](https://wa.me/+8801780861887)
+-   [Facebook](https://www.facebook.com/appsaeed8)
+-   [Linkden](https://www.linkedin.com/in/appsaeed)
+-   [Twitter](https://twitter.com/saeedhossens)
 -   [email](appsaeed7@gmail.com)
+-   [phone](tel:+8801780861887)
 
 ## License
 
-Copyright © 2023 appsaeed
+Copyright © 2023 [appsaeed](https://appsaeed.github.io)
 
 [MIT](LICENSE)
