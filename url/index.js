@@ -1,4 +1,4 @@
-export function toSeoUrl(url: string): string {
+export function toSeoUrl(url) {
     return url
         .toString()
         .normalize("NFD") // Change diacritics
@@ -11,13 +11,12 @@ export function toSeoUrl(url: string): string {
         .replace(/^-*/, "") // Remove starting dashes
         .replace(/-*$/, ""); // Remove trailing dashes
 }
-
 /**
  * seo to string
  * @param url
  * @returns
  */
-export function seoToString(url: string): string {
+export function seoToString(url) {
     return url
         .toString() // Convert to string
         .replace("-", " ") // Change whitespace to dashes
@@ -28,28 +27,24 @@ export function seoToString(url: string): string {
         .replace(/-*$/, "")
         .trim(); // Remove trailing dashes
 }
-
 /**
  * reomve slash from last of url or string
  * @param str
  * @returns
  */
-export const unslashEnd = (str: string): string => str.replace(/\/$/, "");
-
-export const unslash = (str: string): string => str.replace(/(\/$)|(^\/)/g, "");
-
+export const unslashEnd = (str) => str.replace(/\/$/, "");
+export const unslash = (str) => str.replace(/(\/$)|(^\/)/g, "");
 /**
  * add slash from last of url or string
  * @param str
  * @returns
  */
-export const adslash = (str: string): string => unslash(str).replace(/$/, "/");
-
+export const adslash = (str) => unslash(str).replace(/$/, "/");
 /**
  * convart url to plain text
  * @param url
  * @returns
  */
-export const urlToString = (url: string): string => {
+export const urlToString = (url) => {
     return url.toString().replace(/-/g, " ").replace(/\//g, " ").replace(/\\/g, " ");
 };
