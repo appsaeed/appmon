@@ -2,7 +2,7 @@
 
 Javascript utilities functions and methods for browser and nodejs to 10x faster developer experience
 
-> Fast, generic JavaScript browser and some nodejs utility functions.
+> Fast, generic JavaScript browser and some nodejs utilites functions.
 
 Install with [npm](https://www.npmjs.com/)
 

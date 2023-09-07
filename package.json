@@ -1,11 +1,13 @@
 {
     "name": "appmon",
-    "version": "1.0.22",
+    "version": "1.0.27",
     "description": "Javascript utilities functions and methods for browser and nodejs to 10x faster developer experience",
     "main": "./index.js",
     "types": "./index.d.ts",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "rm": "rm -rf ./**/*.js",
+        "up": "tsc && npm publish  --access public && rm -rf ./**/*.js"
     },
     "repository": {
         "type": "git",
@@ -42,6 +44,7 @@
         "str",
         "types",
         "url",
+        "utils",
         "validation"
     ],
     "exports": {
@@ -52,95 +55,104 @@
             "require": "./index.js"
         },
         "./clipboard": {
-            "types": "/clipboard/index.d.ts",
+            "types": "./clipboard/index.d.ts",
             "import": "./clipboard/index.js",
             "default": "./clipboard/index.js",
             "require": "./clipboard/index.js"
         },
         "./convert": {
-            "types": "/convert/index.d.ts",
+            "types": "./convert/index.d.ts",
             "import": "./convert/index.js",
             "default": "./convert/index.js",
             "require": "./convert/index.js"
         },
         "./cookies": {
-            "types": "/cookies/index.d.ts",
+            "types": "./cookies/index.d.ts",
             "import": "./cookies/index.js",
             "default": "./cookies/index.js",
             "require": "./cookies/index.js"
         },
         "./datetime": {
-            "types": "/datetime/index.d.ts",
+            "types": "./datetime/index.d.ts",
             "import": "./datetime/index.js",
             "default": "./datetime/index.js",
             "require": "./datetime/index.js"
         },
         "./detection": {
-            "types": "/detection/index.d.ts",
+            "types": "./detection/index.d.ts",
             "import": "./detection/index.js",
             "default": "./detection/index.js",
             "require": "./detection/index.js"
         },
         "./exportion": {
-            "types": "/exportion/index.d.ts",
+            "types": "./exportion/index.d.ts",
             "import": "./exportion/index.js",
             "default": "./exportion/index.js",
             "require": "./exportion/index.js"
         },
         "./fs": {
-            "types": "/fs/index.d.ts",
+            "types": "./fs/index.d.ts",
             "import": "./fs/index.js",
             "default": "./fs/index.js",
             "require": "./fs/index.js"
         },
         "./generate": {
-            "types": "/generate/index.d.ts",
+            "types": "./generate/index.d.ts",
             "import": "./generate/index.js",
             "default": "./generate/index.js",
             "require": "./generate/index.js"
         },
         "./load": {
-            "types": "/load/index.d.ts",
+            "types": "./load/index.d.ts",
             "import": "./load/index.js",
             "default": "./load/index.js",
             "require": "./load/index.js"
         },
         "./proto": {
-            "types": "/proto/index.d.ts",
+            "types": "./proto/index.d.ts",
             "import": "./proto/index.js",
             "default": "./proto/index.js",
             "require": "./proto/index.js"
         },
         "./storage": {
-            "types": "/storage/index.d.ts",
+            "types": "./storage/index.d.ts",
             "import": "./storage/index.js",
             "default": "./storage/index.js",
             "require": "./storage/index.js"
         },
         "./str": {
-            "types": "/str/index.d.ts",
+            "types": "./str/index.d.ts",
             "import": "./str/index.js",
             "default": "./str/index.js",
             "require": "./str/index.js"
         },
         "./types": {
-            "types": "/types/index.d.ts",
+            "types": "./types/index.d.ts",
             "import": "./types/index.js",
             "default": "./types/index.js",
             "require": "./types/index.js"
         },
         "./url": {
-            "types": "/url/index.d.ts",
+            "types": "./url/index.d.ts",
             "import": "./url/index.js",
             "default": "./url/index.js",
             "require": "./url/index.js"
         },
+        "./utils": {
+            "types": "./utils/index.d.ts",
+            "import": "./utils/index.js",
+            "default": "./utils/index.js",
+            "require": "./utils/index.js"
+        },
         "./validation": {
-            "types": "/validation/index.d.ts",
+            "types": "./validation/index.d.ts",
             "import": "./validation/index.js",
             "default": "./validation/index.js",
             "require": "./validation/index.js"
         },
         "./package.json": "./package.json"
+    },
+    "dependencies": {
+        "appmon": "^1.0.24"
     }
 }

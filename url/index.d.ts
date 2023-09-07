@@ -8,6 +8,8 @@ export declare function seoToString(url: string): string;
 /**
  * reomve slash from last of url or string
  */
+export declare function unslashEnd(str: string): string;
+
 export declare function unslash(str: string): string;
 
 /**
