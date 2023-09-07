@@ -1,6 +1,6 @@
 {
     "name": "appmon",
-    "version": "1.0.1",
+    "version": "1.0.22",
     "description": "Javascript utilities functions and methods for browser and nodejs to 10x faster developer experience",
     "main": "./index.js",
     "types": "./index.d.ts",
