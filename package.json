@@ -1,0 +1,146 @@
+{
+    "name": "appmon",
+    "version": "1.0.18",
+    "description": "Javascript utilities functions and methods for browser and nodejs to 10x faster developer experience",
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "scripts": {
+        "build": "tsc &&  publish  --access public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/appsaeed/utilities-functions.git"
+    },
+    "keywords": [
+        "utilities-functions",
+        "javascript utilities",
+        "javascript",
+        "utilities",
+        "utils",
+        "utility",
+        "appmon"
+    ],
+    "author": "appsaeed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/appsaeed/utilities-functions.git/issues"
+    },
+    "homepage": "https://github.com/appsaeed/utilities-functions.git#readme",
+    "files": [
+        "index.d.ts",
+        "index.js",
+        "clipboard",
+        "convert",
+        "cookies",
+        "datetime",
+        "detection",
+        "exportion",
+        "fs",
+        "generate",
+        "load",
+        "storage",
+        "str",
+        "types",
+        "url",
+        "validation"
+    ],
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "import": "./index.js",
+            "default": "./index.js",
+            "require": "./index.js"
+        },
+        "./clipboard": {
+            "types": "/clipboard/index.d.ts",
+            "import": "./clipboard/index.js",
+            "default": "./clipboard/index.js",
+            "require": "./clipboard/index.js"
+        },
+        "./convert": {
+            "types": "/convert/index.d.ts",
+            "import": "./convert/index.js",
+            "default": "./convert/index.js",
+            "require": "./convert/index.js"
+        },
+        "./cookies": {
+            "types": "/cookies/index.d.ts",
+            "import": "./cookies/index.js",
+            "default": "./cookies/index.js",
+            "require": "./cookies/index.js"
+        },
+        "./datetime": {
+            "types": "/datetime/index.d.ts",
+            "import": "./datetime/index.js",
+            "default": "./datetime/index.js",
+            "require": "./datetime/index.js"
+        },
+        "./detection": {
+            "types": "/detection/index.d.ts",
+            "import": "./detection/index.js",
+            "default": "./detection/index.js",
+            "require": "./detection/index.js"
+        },
+        "./exportion": {
+            "types": "/exportion/index.d.ts",
+            "import": "./exportion/index.js",
+            "default": "./exportion/index.js",
+            "require": "./exportion/index.js"
+        },
+        "./fs": {
+            "types": "/fs/index.d.ts",
+            "import": "./fs/index.js",
+            "default": "./fs/index.js",
+            "require": "./fs/index.js"
+        },
+        "./generate": {
+            "types": "/generate/index.d.ts",
+            "import": "./generate/index.js",
+            "default": "./generate/index.js",
+            "require": "./generate/index.js"
+        },
+        "./load": {
+            "types": "/load/index.d.ts",
+            "import": "./load/index.js",
+            "default": "./load/index.js",
+            "require": "./load/index.js"
+        },
+        "./proto": {
+            "types": "/proto/index.d.ts",
+            "import": "./proto/index.js",
+            "default": "./proto/index.js",
+            "require": "./proto/index.js"
+        },
+        "./storage": {
+            "types": "/storage/index.d.ts",
+            "import": "./storage/index.js",
+            "default": "./storage/index.js",
+            "require": "./storage/index.js"
+        },
+        "./str": {
+            "types": "/str/index.d.ts",
+            "import": "./str/index.js",
+            "default": "./str/index.js",
+            "require": "./str/index.js"
+        },
+        "./types": {
+            "types": "/types/index.d.ts",
+            "import": "./types/index.js",
+            "default": "./types/index.js",
+            "require": "./types/index.js"
+        },
+        "./url": {
+            "types": "/url/index.d.ts",
+            "import": "./url/index.js",
+            "default": "./url/index.js",
+            "require": "./url/index.js"
+        },
+        "./validation": {
+            "types": "/validation/index.d.ts",
+            "import": "./validation/index.js",
+            "default": "./validation/index.js",
+            "require": "./validation/index.js"
+        },
+        "./package.json": "./package.json"
+    }
+}
